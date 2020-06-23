@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Roboto:wght@300;400&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+/* Navbar */
+
+.navbar .navbar-toggler {
+  transition: linear 0.5s;
+  border: none !important;
+  color: #b6006a;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ff61c3;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #ff46b8;
+}
+
+.navbar .navbar-nav a.active{
+  color: #FB1198 !important;
+  font-weight: 700;
+}
+
+/* Home */
+
+#home {
+  padding: 5%;
+  height: 100vh; 
+  background-repeat: no-repeat;
+  background: url('../../imgs/bg-lg.png');
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  #home {
+  background-repeat: no-repeat;
+  background: url('../../imgs/bg-sm.png');
+  background-size: 100% 100%; 
+  }
+}
+
+#home div {
+  padding: 5%;
+  border: 7px solid white !important;
+}
+
+#home div h1{
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#home div hr{
+  width: 20%;
+  border: 3px #fff solid;
+}
+
+#home div h3{
+  color:#fff;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#home div a button{
+  word-wrap: none;
+  padding: 10px 15px;
+  background-color: #34AF23;
+  border: 2px solid white !important;
+  color:#fff;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#home div a button i{
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+/* Serviços */
+
+#servicos {
+  padding: 5%;
+  background-color: #583579;
+  height: auto;
+}
+
+#servicos h1 {
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#servicos hr {
+  width: 50px;
+  border: 3px #fff solid;
+}
+
+#servicos .row .item i::before {
+  font-size: 100px;
+  color: #AC94BE;
+}
+
+#servicos .row .item p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #EFD8F4;
+}
+
+/* Galeria */
+
+#galeria {
+  padding: 5%;
+  background-color: #442D5A;
+  height: auto;
+}
+
+#galeria h1 {
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#galeria hr {
+  width: 50px;
+  border: 3px #fff solid;
+}
+
+#galeria .container {
+      background: #fff;
+  }
+  
+ #galeria .container .flex-column {
+      max-width: 260px;
+  }
+  
+ #galeria .container .flex-column {
+  margin: 5px;
+  }
+  
+ #galeria .scale {
+    height: 280px;;
+  }  
+
+  /* Localização */
+
+  #localizacao {
+  padding: 5%;
+  background-color: #583579;
+  height: auto;
+}
+
+#localizacao h1 {
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#localizacao hr {
+  width: 50px;
+  border: 3px #fff solid;
+}
+
+/* Contato */
+
+#sobre {
+  padding: 5%;
+  background-color: #442D5A;
+  height: auto;
+}
+
+#sobre h1 {
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#sobre hr {
+  width: 50px;
+  border: 3px #fff solid;
+}
+
+#sobre .row a button:hover {
+  text-decoration: none !important;
+}
+
+#sobre .row a button {
+  color: #fff;
+  border: none !important;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+#sobre .row a button i {
+  font-size: 24px; 
+}
+
+#sobre .row a button i{
+  font-size: 24px; 
+}
+#sobre #instagram {
+  background-image: linear-gradient(#9B40A9,#F2454F,#FE6E29);
+}
+
+#sobre #facebook {
+  background-color: #3B5998;
+}
+
+#sobre #whatsapp {
+  background-color: #34AF23;
+}
+
+#sobre .card {
+  border-radius: none !important;
+  border: 5px solid #D4ABDC;
+  background-color: #583579;
+  padding: 15px;
+  margin: auto;
+}
+
+#sobre .card b{
+  font-size: 24px;
+  font-weight: 700;
+  color: #D7C2DE;
+}
+
+#sobre .card p{
+  font-size: 18px;
+  color: #AC94BE
+}
+
+#sobre .card i{
+  color: #fff;
+  font-size: 70px;
+}
+
+#sobre .paragrafo p{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Footter */
+
+.page-footer {
+    background-color: #BC1E79;
+}
