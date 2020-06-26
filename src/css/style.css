@@ -3,27 +3,36 @@
 html, body {
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   position: relative;
 }
 /* Navbar */
 
+.navbar {
+  background-color: #7B47C5 !important;
+}
+
 .navbar .navbar-toggler {
   transition: linear 0.5s;
   border: none !important;
-  color: #b6006a;
+  color: #fff;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #ff61c3;
+  color: #b394df;
+  letter-spacing: 1px;
   font-weight: 500;
 }
 .navbar .navbar-nav .nav-link:hover{
-  color: #ff46b8;
+  color: #ceaaff;
 }
 
 .navbar .navbar-nav a.active{
-  color: #FB1198 !important;
+  border-bottom: 2px solid #D7C2DE;
+  color: #ffffff !important;
   font-weight: 700;
 }
 
@@ -42,6 +51,10 @@ body {
   background-repeat: no-repeat;
   background: url('../../imgs/bg-sm.png');
   background-size: 100% 100%; 
+  }
+  .navbar .navbar-nav a.active{
+    border: none;
+    background-color: #b394df;
   }
 }
 
@@ -136,12 +149,16 @@ body {
   border: 3px #fff solid;
 }
 
-#galeria .container {
-      background: #fff;
-  }
+
   
  #galeria .container .flex-column {
       max-width: 260px;
+
+  }
+
+  #galeria .container .flex-column img{
+    max-height: 320px;
+
   }
   
  #galeria .container .flex-column {
@@ -149,7 +166,7 @@ body {
   }
   
  #galeria .scale {
-    height: 280px;;
+   
   }  
 
   /* Localização */
@@ -257,5 +274,20 @@ body {
 /* Footter */
 
 .page-footer {
-    background-color: #BC1E79;
+    background-color: #5B3491;
+}
+
+#banner #closeCard {
+  color: white;
+}
+
+#banner .card-header {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#banner .btn {
+  border: 2px solid white !important;
+  color:#fff;
+  background-color: #34AF23;
 }
