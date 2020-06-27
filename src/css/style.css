@@ -163,11 +163,7 @@ body {
   
  #galeria .container .flex-column {
   margin: 5px;
-  }
-  
- #galeria .scale {
-   
-  }  
+  } 
 
   /* Localização */
 
@@ -193,7 +189,7 @@ body {
 
 #sobre {
   padding: 5%;
-  background-color: #442D5A;
+  background-color: #583579;
   height: auto;
 }
 
@@ -269,6 +265,35 @@ body {
 #sobre .paragrafo p{
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+/* Preços */
+
+#precos {
+  padding: 5%;
+  background-color:#442D5A;;
+}
+
+#precos h1 {
+  color:#D4ABDC;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#precos hr {
+  width: 50px;
+  border: 3px #fff solid;
+}
+
+#precos .row .col-md-4 i::before {
+  color: #b394df;
+  font-size: 80px;
+}
+
+#precos .row .col-md-4 h1 {
+  color: #5B3491;
+  font-weight: 600;
 }
 
 /* Footter */

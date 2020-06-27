@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 17/06/2020 17:55
+    Creation date: 26/06/2020 19:46
     */
 
     @font-face {
@@ -37,12 +37,18 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-nail:before { content: "\f100"; }
-.flaticon-nail-polish:before { content: "\f101"; }
-.flaticon-make-up:before { content: "\f102"; }
-.flaticon-eyebrow:before { content: "\f103"; }
+    .flaticon-massage:before { content: "\f100"; }
+.flaticon-pedicure:before { content: "\f101"; }
+.flaticon-manicure:before { content: "\f102"; }
+.flaticon-make-up:before { content: "\f103"; }
+.flaticon-nail:before { content: "\f104"; }
+.flaticon-eyebrow:before { content: "\f105"; }
+.flaticon-nail-polish:before { content: "\f106"; }
     
-    $font-Flaticon-nail: "\f100";
-    $font-Flaticon-nail-polish: "\f101";
-    $font-Flaticon-make-up: "\f102";
-    $font-Flaticon-eyebrow: "\f103";
+    $font-Flaticon-massage: "\f100";
+    $font-Flaticon-pedicure: "\f101";
+    $font-Flaticon-manicure: "\f102";
+    $font-Flaticon-make-up: "\f103";
+    $font-Flaticon-nail: "\f104";
+    $font-Flaticon-eyebrow: "\f105";
+    $font-Flaticon-nail-polish: "\f106";
